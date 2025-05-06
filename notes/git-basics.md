@@ -13,12 +13,27 @@ This document contains quick reference commands for Git.
 | 'git status' | Check repo status |
 | 'git add file' or 'git add .' | Add file(s) to staging area |
 | 'git commit -m "message"' | Commit a snapshot of repository |
-| 'git pull' | Pulls latest from GitHub |
-| 'git push' | Push to Github |
 | 'git log' | View commit history |
 | 'git branch -M main' | Rename branch to 'main' |
+| 'git config --list | List current git config |
+| 'git config --help | List options/syntax for git config |
 
 ---
+
+## Remote Commands
+
+| 'git pull origin main' | Pull remote branch main into local branch |
+| 'git push origin main' | Push local commit to remote repository |
+
+---
+
+## Branching Commands
+
+| 'git branch -M newName' | Rename remote branch to 'newName' |
+| 'git branch newBranch' | Created branch 'newBrance' |
+| 'git branch' | List local branched, indicating current branch |
+| 'git checkout newBranch' | Make 'newBranch' the current branches | 
+| 'git checkout -b otherBranch' | Create and checkout 'otherBranch' |
 
 ## Tips
 
